@@ -1,2 +1,2 @@
 # JavaScript-Projects
-These are my projects created using JavaScript.
+Here you can find my projects created using JavaScript.
