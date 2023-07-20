@@ -9,4 +9,4 @@ document.write(Sent1        //Exacuting document.write and concatenating a strin
     + Sent2) 
 
 document.write(7+3)     // Exacuting document.write where the value of an expression will be displayed.
-
+ 
