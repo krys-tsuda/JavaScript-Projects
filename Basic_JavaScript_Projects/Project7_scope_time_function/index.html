@@ -1,0 +1,64 @@
+<!DOCTYPER html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script src="JS/main.js"></script>
+        <style>
+            .box {
+                border: solid 2px black;
+                width: 250px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Project7 Scope and Time Functions</h3>
+        
+        <div class="box">
+            <button onclick="variable_Fun()">Click me</button>
+            <!--global variable-->
+            <p>Global variable output:</p>  
+            <p id="Global_1"></p>
+            <p id="Global_2"></p>
+
+            <!--local variable-->
+            <p>Local variable output:</p>   
+            <p id="Local_1"></p>
+            <p id="Local_2"></p>
+        </div>
+
+        <div class="box">
+            <button onclick="get_Date()">Click me</button>
+            <p id="my_Id"></p>
+        </div>
+
+        <div class="box">
+            <!--if statement-->
+            <p>Is 10 greater than 5?</p>
+            <button onclick="statement_Function()">Click for the answer.</button>
+            <p id="this_Id"></p>
+        </div>
+
+        <div class="box">
+            <!--if else statement-->
+            <p>What year were you born?</p>
+            <input id="Year" value="" />
+            <button onclick="the_90s()">Click me</button>
+            <p id="Results"></p>
+        </div>
+
+        <div class="box">
+            <!--else if statement-->
+            <p id="Time_of_day"></p>
+            <button onclick="Time_function()">Click here to get the time.</button>
+        </div>
+
+        <div class="box">
+            <!--else if statement-->
+            <p>Do you like ice cream?</p>
+            <button id="Yes" onclick="Choice(this);">Yes</button>
+            <button id="No" onclick="Choice(this);">No</button>
+        </div>
+    </body>
+</html>
