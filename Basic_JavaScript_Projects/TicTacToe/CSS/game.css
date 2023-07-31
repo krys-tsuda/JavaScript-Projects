@@ -1,0 +1,41 @@
+/* General Styling */
+body {
+    background-color: #346aff
+}
+
+h1 {
+    font-family: 'Handjet', cursive;
+    color:rgb(149, 255, 0);
+    font-size: 80px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Container for table and canvas */
+.center-container {
+    width: 608px;
+    margin: 0 auto; /* centers container */
+    margin-top: 50px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse; /* collapses border into 1 border */
+    border-style: hidden; /* hides outer borders on table */
+}
+
+td {
+    cursor: pointer;
+    border: 4px solid rgba(68, 59, 194, 0.8);
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    filter: contrast(3);
+}
+
+/* Canvas styling */
+canvas {
+    position: absolute; /* sets canvas to the top left corner of container */
+    z-index: 10; /* places canvas ocer table */
+    pointer-events: none; /* makes canvas invisible */
+}
