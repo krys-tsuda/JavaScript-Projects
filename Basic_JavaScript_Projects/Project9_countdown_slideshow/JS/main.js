@@ -44,3 +44,9 @@ function playSlides(n) {
     slides[slideIndex-1].style.display = "block";   // current slide and corresponding dot are displayed by style display block
     dots[slideIndex-1].className += " active";      // adds active properties to current dot
 }
+
+// document.getElementsByClassName() method
+function class_Ified() {
+    var double_Agent = document.getElementsByClassName("under_Cover");
+    double_Agent[1].innerHTML = "Mission accomplished. Huzzah!";
+}
