@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head> 
+		<title>2nd Chance</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/One_Page_Website_2.css">
+		<script src="JS/one_page_website.js"></script>
+	</head>
+
+	<body>
+	
+		<!-- NAV -->
+		<section id="nav">
+			<div class="nav">
+				<a href="#home">Home</a>
+				<a href="#gallery">Gallery</a>
+				<a href="#success">Success</a>
+				<a href="#apply">Apply</a>
+			</div>
+		</section>
+		
+		<!-- END NAV -->
+	
+		<!-- HOME -->
+		<section id="home">
+			<div class="container">
+				<h2>Second Chance Pitbull Rescue</h2>
+				<p>Come visit us today and give a pet a second chance.</p>
+			</div>
+		</section>
+		<!-- END HOME -->
+
+		<!-- GALLERY -->
+		<section id="gallery">
+			<div class="row">
+				<div class="column">
+					<img src="images/Thumb/pit1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit3.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			
+				<div class="column">
+					<img src="images/Thumb/pit5.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit6.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit7.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				</div>
+
+				<div class="column">
+					<img src="images/Thumb/pit8.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				</div>
+			</div>
+		</section>
+		<!-- END OF GALLERY -->
+	
+		<!-- MODAL/LIGHTBOX -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		
+				<div class="mySlides">
+					<div class="numbertext">1 / 8</div>
+					<img src="images/Full/pit1.jpg">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 8</div>
+					<img src="images/Full/pit2.jpg">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">3 / 8</div>
+					<img src="images/Full/pit3.png">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">4 / 8</div>
+					<img src="images/Full/pit4.jpg">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">5 /  8</div>
+					<img src="images/Full/pit5.jpg">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">6 / 8</div>
+					<img src="images/Full/pit6.jpg">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">7 / 8</div>
+					<img src="images/Full/pit7.jpg">
+				</div>
+
+				<div class="mySlides">
+					<div class="numbertext">8 / 8</div>
+					<img src="images/Full/pit8.png">
+				</div>
+			
+				<!-- NEXT/PREVIOUS CONTROLS -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			
+				<!-- CAPTION -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+			
+				<!-- THUMBNAIL IMAGE CONTROLS -->
+				<div class="modal-row";>
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit1.jpg" onclick="currentSlide(1)" alt="Meet Jack">
+					</div>
+				
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit2.jpg" onclick="currentSlide(2)" alt="Meet Bella">	
+					</div>
+				
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit3.png" onclick="currentSlide(3)" alt="Meet Bruce">
+						
+					</div>
+				
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit4.jpg" onclick="currentSlide(4)" alt="Meet Zane">
+					</div>
+
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit5.jpg" onclick="currentSlide(5)" alt="Meet Jackie">
+					</div>
+
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit6.jpg" onclick="currentSlide(6)" alt="Meet Buddah">
+					</div>
+
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit7.jpg" onclick="currentSlide(7)" alt="Meet Ruca">
+					</div>
+
+					<div class="modal-column">
+						<img class="demo" src="images/Thumb/pit8.png" onclick="currentSlide(8)" alt="Meet Jewel">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END MODAL/LIGHTBOX -->
+			
+		<!-- SUCCESS -->
+		<section id="success">
+			<div class="container">
+				<h2>Second Chance Success</h2>
+				<!-- VIDEO -->
+				<div class="video">
+					<h3>Sucess Story</h3>
+					<p>Take a look at one of our Second Chance success stories!</p>
+					<div class="video-container">
+						<iframe width="560px" height="315px" src="https://www.youtube.com/embed/zajqFBqiKAQ" 
+						title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+						encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+					</div>
+				</div>
+				<!-- END VIDEO -->
+			</div>
+		</section>
+		<!-- END SUCCESS -->
+		
+		<!-- APPLY TODAY -->
+		<section id="apply">
+			<div class="container">
+				<h2>Apply Today</h2>
+				<h3>Meet your next family member.<br>
+				Come visit Second Chance Rescue!</h3>
+				<p>Please provide contact information to start your application process.</p>
+				<div>			
+					<form action="" method="post">
+					<input class="apply" type="text" value="First Name">
+					<input class="apply" type="text" value="Last Name">
+					<input class="apply" type="text" value="Email Address">
+					<input class="apply" type="text" value="Phone Number">
+					<div class="form-spacer">
+						<label class="terms">Terms and Conditions</label>
+					</div>
+					<div>
+						<input type="submit" value="Submit">								
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END APPLY -->
+					
+	</body>
+
+	<footer>
+		<!-- FOOTER -->
+		<div class="container">
+			www.secondchance.rescue &nbsp;|&nbsp; &copy;2023
+		</div>
+		<!-- END FOOTER -->
+	</footer>
+</html>
