@@ -4,7 +4,7 @@ Here you can find my projects created using JavaScript.
 <ul>
     <li><a href="Pizza_Project/Pizza.html">Pizza Menu</a></li>
     <li><a href="TicTacToe/TicTacToe.html">TicTacToe Game</a></li>
-    <li><a href="CalculatorProject/Calculator.html">Calculator</a></li>
+    <li><a href="Calculator Project/Calculator.html">Calculator</a></li>
 
 <h3>Pizza Menu</h3>
 <p>This menu for Punkhouse Pizza has various selections for toppings. The information, input by user for their choices, is then calculated and a reciept is presented.</p>
